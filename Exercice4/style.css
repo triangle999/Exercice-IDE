@@ -1,0 +1,51 @@
+body {
+    font-family: "League Spartan", sans-serif;
+    background: url(img/people.jpg);
+}
+nav {
+    border-bottom: 1px solid #476728;
+    display: table-cell;
+    vertical-align: middle;
+    height: 4em;
+    width: 100vw;
+}
+nav a {
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 2em;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+a:hover {
+    color: #608f32;
+}
+a:active {
+    color:#476728;
+}
+a:visited {
+    color: #73b036;
+}
+h1 {
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+h2 {
+    margin-bottom: 2.5em;
+}
+.logo {
+    padding-left: 0;
+}
+img {
+    height: 4em;
+}
+button {
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background: radial-gradient(#476728,#608f32);
+    height: 3em;
+    border-radius: 10px;
+    box-shadow: 0 0.5em 0.5em 0 rgb(38, 77, 32)
+}
