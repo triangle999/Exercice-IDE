@@ -1,0 +1,29 @@
+body {
+    font-family: "League Spartan", sans-serif;
+    margin: 0;  
+}
+h1 {
+    text-align: center;
+    padding: 90px;
+}
+main {
+    height: 20em;
+}
+footer {
+    background-color: rgb(218, 220, 222);
+}
+table {
+    margin: 0 auto;
+}
+.horaires {
+    text-align: center;
+}
+td {
+    padding: 4em;
+}
+.heures {
+    line-height: 15px;
+}
+.mentions {
+    text-align: center;
+}
