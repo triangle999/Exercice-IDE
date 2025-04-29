@@ -1,12 +1,15 @@
 body {
     font-family: "League Spartan", sans-serif;
     background: url(img/people.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
 }
 nav {
     border-bottom: 1px solid #476728;
     display: table-cell;
     vertical-align: middle;
-    height: 4em;
+    height: 6em;
     width: 100vw;
 }
 nav a {
@@ -15,6 +18,10 @@ nav a {
     margin-left: 2em;
     color: black;
     font-family: "Roboto", sans-serif;
+    font-size: larger;
+}
+main {
+    margin-left: 4em;
 }
 a:hover {
     color: #608f32;
@@ -38,14 +45,17 @@ h2 {
 img {
     height: 4em;
 }
-button {
+.button {
     border: none;
     font-family: "Roboto", sans-serif;
     font-size: medium;
     font-weight: bold;
     color: white;
-    background: radial-gradient(#476728,#608f32);
+    background: radial-gradient(#476728,#608f32,#73b036);
     height: 3em;
     border-radius: 10px;
-    box-shadow: 0 0.5em 0.5em 0 rgb(38, 77, 32)
+    box-shadow: 0 0.5em 0.5em 0 rgb(38, 77, 32);
+}
+.button:hover {
+    background-color: #283916;
 }
