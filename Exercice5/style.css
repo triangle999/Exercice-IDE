@@ -1,64 +1,170 @@
 body {
-    background-color: #ac663e;
+    color: #382d2d;
 }
 .flex-header {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 12em;
+    height: 30vh;
+    font-family: "Roboto", sans-serif;
 }
-header {
-    height: 15vh;
+i {
+    color: #382d2d;
 }
-.logo {
-    width: 0.5em;
-    height: 0.5em;
+.icon {
+    width: 10   em;
+    height: 2em;
+}
+h1 {
+    font-size: 5em;
+    margin: 0 auto;
+}
+.logo img{
+    width: 10em;
+    height: 10em;
 }
 nav {
-    height: 5vh;
+    height: 8vh;
+    text-align: center;
+    align-content: center;
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+    border-top: 1px solid #382d2d;
+    border-bottom: 1px solid #382d2d;
 }
-div {
-    
+nav a {
+    text-decoration: none;
+    color: #382d2d;
+    font-weight: bolder;
+}
+a:hover {
+    color: #3ea5ab;
+}
+a:active {
+    color: #2f7478;
+}
+nav img {
+    height: 20vh;
+    width: 80vw;
 }
 main {
-    border: 1px solid black;
+    justify-items: center;
+}
+.boutton {
+    color: #f8eddd;
+    background-color: #3ea5ab;
+    height: 5.5vh;
+    width: 10vw;
+    border-radius: 8px;
+    border: 1.5px solid #382d2d;
+}
+.boutton:hover {
+    background-color: #4ec7ce;
+}
+.boutton:active {
+    background-color: #2f7478;
+}
+.prix {
+    background-color: #382d2d;
+    color: #f8eddd;
+    border-radius: 8px ;
+    height: 5vh;
+    width: 4vw;
+    text-align: center;
+    align-content: center;
+
+}
+.flex-case {
+    display: flex;
+    justify-content: center;
+    gap: 0.9em;
+    font-family: "Roboto", sans-serif;
+    width: 13em;
 }
 .galerie {
     display: flex;
     flex-wrap: wrap;
-    height: 60vh;
-    width: 60vw;
-    justify-content: space-between;
-    border: 1px solid black;
+    height: 120vh;
+    width: 74vw;
+    margin-bottom: 10em;
+    font-family: "League Spartan", sans-serif;
+}
+.centre {
+    text-align: center;
 }
 .element1,
 .element2,
 .element3,
 .element4,
-.element5 {
-    width: 8em;
-    height: 12em;
-    border: 1px solid black;
+.element5,
+.element6 {
+    width: 18vw;
+    height: 60vh;
+    margin-right: 2em;
+    margin-top: 3em;
+    margin-left: 2em;
+    padding-left: 1em;
+    box-shadow: 10px 10px #3ea5ab;
+    border: 1px solid #382d2d;
+    border-radius: 10px;
 }
-.case1 {
+.case1, 
+.case2, 
+.case3,
+.case4,
+.case5,
+.case6 {
     height: 10em;
     width: 10em;
+    transition: 1s;
 }
-.case2 {
-    height: 10em;
-    width: 10em;
+.case1:hover {
+    transform: scale(1.5);
+} 
+.case2:hover {
+    transform: scale(1.5);
+} 
+.case3:hover {
+    transform: scale(1.5);
 }
-.case3 {
-    height: 10em;
-    width: 10em;
+.case4:hover {
+    transform: scale(1.5);
 }
-.case4 {
-    height: 10em;
-    width: 10em;
+.case5:hover {
+    transform: scale(1.5);
 }
-.case5 {
-    height: 10em;
-    width: 10em;
+.case6:hover {
+    transform: scale(1.5);
 }
 footer {
-    border: 1px solid black;
+    justify-items: center;
+    background-color: #f8eddd;
+    font-family: "Roboto", sans-serif;
+    
+}
+.ligne {
+    height: 2px;
+    width: 80vw;
+    border-radius: 10px;
+    background-color: #c4bbaf;
+}
+.bas {
+    margin: 0 auto;
+    text-align: center;
+}
+.logo-footer {
+    height: 5em;
+    width: 5em;
+    margin-bottom: 1em;
+    border-radius: 100%;
+}
+.flex-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+    height: 36vh;
+    gap: 2em;
+    padding-top: 0.5em;
 }
